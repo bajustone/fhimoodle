@@ -1,0 +1,22 @@
+{
+  "name": "front-end",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "keywords": [],
+  "author": "BAHATI Justin",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.73.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "lit": "^2.2.4"
+  }
+}
