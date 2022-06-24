@@ -3,7 +3,7 @@ require_once(__DIR__ . "../../../config.php");
 require_once($CFG->libdir.'/clilib.php');
 require_once($CFG->dirroot . '/backup/util/includes/backup_includes.php');
 
-const SERVER_URL = "https://petrolpath.com/moodle/api/cap-updates.php";
+const SERVER_URL = "http://197.243.24.148/api/cap-updates.php";
 
 $resultObj = new stdClass;
 $courseId = (int) $_GET["course_id"];

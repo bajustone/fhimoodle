@@ -4,7 +4,7 @@ require_once($CFG->dirroot . '/local/coursebackup/classes/utils/restore.php');
 
 $course_id = $_GET['course_id'];
 // Initialize a file URL to the variable
-$url = 'https://petrolpath.com/moodle/api/?course_id=' . $course_id;
+$url = 'http://197.243.24.148/api/?course_id=' . $course_id;
 
 $file_name = "course_" . $course_id . ".mbz";
 $destination_dir = $CFG->courseBackupDir;
@@ -12,6 +12,7 @@ $destination_dir = $CFG->courseBackupDir;
 $resultObj = new stdClass;
 
 $resultObj->success = false;
+
 
 // require_login((int) $course_id, false);
 if (!is_writable($destination_dir) or !is_dir($destination_dir)) {
