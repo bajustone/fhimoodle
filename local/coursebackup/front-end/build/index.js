@@ -54,9 +54,9 @@
     }
   }
 
-  const COURSES_ENDPOINT = "https://petrolpath.com/moodle/api/get-remote-courses.php";
-  const COURSE_DOWNLOAD_ENDPOINT = "/local/coursebackup/download-remote-course.php?course_id=";
-  const COURSE_UPLOAD_TO_REMOTE_SERVER_ENDPOINT = "/local/coursebackup/upload-course-to-remote-server.php?course_id=";
+  const COURSES_ENDPOINT = "http://197.243.24.148/api/get-remote-courses.php";
+  const COURSE_DOWNLOAD_ENDPOINT = "download-remote-course.php?course_id=";
+  const COURSE_UPLOAD_TO_REMOTE_SERVER_ENDPOINT = "upload-course-to-remote-server.php?course_id=";
 
   class App extends s{
       static styles = r$2`
